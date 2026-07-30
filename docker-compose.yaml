@@ -1,0 +1,8 @@
+services:
+  homebridge:
+    image: homebridge/homebridge:latest
+    ports:
+      - "8581:8581"
+    volumes:
+      - ./data:/homebridge
+    restart: unless-stopped

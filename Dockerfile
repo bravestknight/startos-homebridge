@@ -1,1 +1,1 @@
-FROM ghcr.io/homebridge/homebridge:latest
+FROM homebridge/homebridge:latest

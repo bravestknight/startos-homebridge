@@ -1,23 +1,4 @@
 id: homebridge
 title: Homebridge
-version: "1.0.0"
-release-notes: |
-  Initial StartOS package for Homebridge.
-
-license: Apache-2.0
-
-wrapper-repo: "https://github.com/bravestknight/startos-homebridge"
-upstream-repo: "https://github.com/homebridge/homebridge"
-
-support-site: "https://github.com/homebridge/homebridge/issues"
-marketing-site: "https://homebridge.io"
-
-description:
-  short: HomeKit bridge for unsupported smart home devices.
-  long: |
-    Homebridge allows you to integrate thousands of smart home devices
-    that are not natively compatible with Apple HomeKit.
-
-assets:
-  license: LICENSE
-  icon: assets/icon.png
+version: 0.2.0
+release-notes: Initial V2 scaffold
